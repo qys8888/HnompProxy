@@ -88,7 +88,10 @@ minerProxy.exe -pool ssl://eth-hk.flexpool.io:5555 -port 15555
 开启ssl链接地址为stratum+ssl://ip:端口，关闭SSL功能：tcp地址为stratum+tcp://ip:端口 ,开启运行就可以链接矿机了
 
 
+```
 
 QQ联系：512199987
 
-
+任何问题请加TG群：
+https://t.me/trexminerproxy
+![img.png](img.png)
