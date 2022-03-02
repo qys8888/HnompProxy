@@ -22,7 +22,7 @@ https://www.locvps.com/
 
 ```bash
 git clone https://github.com/ethminerpro/ETHminerproxy.git
-cd minerProxy 
+cd ETHminerproxy
 ./minerProxy -pool ssl://eth-hk.flexpool.io:5555 -port 15555
 ```
 
