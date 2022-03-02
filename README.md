@@ -21,7 +21,7 @@ https://www.locvps.com/
 ## Liunx下
 
 ```bash
-git clone https://github.com/ethminerpro.git
+git clone https://github.com/ethminerpro/ETHminerproxy
 cd minerProxy 
 ./minerProxy -pool ssl://eth-hk.flexpool.io:5555 -port 15555
 ```
