@@ -1,9 +1,7 @@
 # minerProxy
 ![222](https://user-images.githubusercontent.com/97815657/150623817-f3d6ef1c-cf56-4543-8f68-a92c194497e5.png)
 
-任何问题请加TG群：
-https://t.me/trexminerproxy
-![img.png](img.png)
+
 ## 重要说明
 ```bigquery
 建议不要使用国内厂商的服务器，有必要选用国外运营商的服务器，
@@ -90,6 +88,9 @@ minerProxy.exe -pool ssl://eth-hk.flexpool.io:5555 -port 15555
 开启ssl链接地址为stratum+ssl://ip:端口，关闭SSL功能：tcp地址为stratum+tcp://ip:端口 ,开启运行就可以链接矿机了
 
 
+任何问题请加TG群：
+https://t.me/trexminerproxy
+![img.png](img.png)
 QQ联系：512199987
 
 
