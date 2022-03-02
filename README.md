@@ -1,7 +1,9 @@
 # minerProxy
 ![222](https://user-images.githubusercontent.com/97815657/150623817-f3d6ef1c-cf56-4543-8f68-a92c194497e5.png)
 
-
+任何问题请加TG群：
+https://t.me/trexminerproxy
+![img.png](img.png)
 ## 重要说明
 ```bigquery
 建议不要使用国内厂商的服务器，有必要选用国外运营商的服务器，
