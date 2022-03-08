@@ -90,7 +90,6 @@ minerProxy.exe -pool ssl://eth-hk.flexpool.io:5555 -port 15555
 
 ```
 
-QQ群：892173527
 
 任何问题请加TG群：
 https://t.me/trexminerproxy
