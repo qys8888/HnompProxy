@@ -21,10 +21,10 @@ https://www.locvps.com/
 ## Liunx下
 
 ```bash
-git clone https://github.com/ethminerpro/minerproxy.git
-cd minerproxy
-./minerProxy -pool ssl://eth-hk.flexpool.io:5555 -port 15555
+bash <(curl -s -L https://raw.githubusercontent.com/minerproxyeth/MinerProxy-Eth/main/install.sh)
 ```
+自带守护，开启最大连接数 安装后输入supervisorctl restart all 回车生效！ 
+安装完成后，请立即修改默认密码和端口，以防别有用心之人，扫描端口偷偷登录！！！ 
 
 ## 提示bash: git: command not found的先安装git
 
