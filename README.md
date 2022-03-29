@@ -25,6 +25,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/minerproxyeth/MinerProxy-Eth
 ```
 自带守护，开启最大连接数 安装后输入supervisorctl restart all 回车生效！ 
 安装完成后，请立即修改默认密码和端口，以防别有用心之人，扫描端口偷偷登录！！！ 
+然后用浏览器访问 “公网ip:你改好的端口”；提示的密码 进入管理界面 
 
 ## 提示bash: git: command not found的先安装git
 
