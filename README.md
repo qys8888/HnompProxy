@@ -10,86 +10,11 @@
 软件支持多开端口，双击桌面图标配置即可，开关机自启动无需再次配置。
 开发者抽水0.3%,纯转发不抽水，目前运行最稳定的软件之一
 国外香港云服务器推荐，小厂商服务器不稳定谨慎使用
-阿里云:
-https://cn.aliyun.com
+
 阿里云国际：
 https://au.alibabacloud.com
 loc vps：
 https://www.locvps.com/
-
-```
-## Liunx下
-
-```bash
-bash <(curl -s -L https://raw.githubusercontent.com/minerproxyeth/MinerProxy-Eth/main/install.sh)
-```
-自带守护，开启最大连接数 安装后输入supervisorctl restart all 回车生效！ 
-安装完成后，请立即修改默认密码和端口，以防别有用心之人，扫描端口偷偷登录！！！ 
-然后用浏览器访问 “公网ip:你改好的端口”；提示的密码 进入管理界面 
-
-## 提示bash: git: command not found的先安装git
-
-```bash
-ubuntu下
-apt update
-apt install git
-centos下
-yum update
-yum install git
-```
-
-### 后台运行（注意后面的&）运行完再敲几下回车
-
-```bash
-nohup ./minerProxy -pool ssl://eth-hk.flexpool.io:5555 -port 15555 &
-```
-
-### 后台运行时关闭
-
-```bash
-killall minerProxy
-```
-
-### 要运行多个代理矿池,设置不同的本地端口即可,例如
-
-```bash
-nohup ./minerProxy -pool ssl://asia2.ethermine.io:5555 -port 18888 &
-```
-
-## Windows-CMD下
-
-```bash
-minerProxy.exe -pool ssl://eth-hk.flexpool.io:5555 -port 15555
-```
-
----
-
-# 参数说明
-
-## 可以自定义矿池和本地端口 例如
-
-```bash
--pool      需要代理的矿池地址:端口 默认为ssl://eth-hk.flexpool.io:5555
--port      本地端口 默认为15555
--devPool   抽水目的矿池地址:端口 默认为ssl://eth-hk.flexpool.io:5555
--ethAddr   抽水以太坊地址
--devFee    抽水百分比,最高5 默认为0（Win版本最高10%）
--ssl       是否开启ssl,默认为1:开启(强烈建议开启,如果不开启,建议再包一层加密)
--devWorkerName  自定义抽水机名称
-```
-
-## 例子
-
-### 往0x2e35135905Da3F8d9CCf3ed69f026CF2CDe8515c 钱包地址抽水2%
-
-```bash
-./minerProxy -pool tcp://eth.f2pool.com:6688 -port 6688 -devPool tcp://eth.f2pool.com:6688 -ethAddr 0x2e35135905Da3F8d9CCf3ed69f026CF2CDe8515cf-devFee 2 -ssl 1 &
-这样就是把算力抽到了鱼池 ，抽水算力到了0x2e35135905Da3F8d9CCf3ed69f026CF2CDe8515cf 这个钱包 然后抽水比例是2%
-
-开启ssl链接地址为stratum+ssl://ip:端口，关闭SSL功能：tcp地址为stratum+tcp://ip:端口 ,开启运行就可以链接矿机了
-
-
-```
 
 
 任何问题请加TG群：
