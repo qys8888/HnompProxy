@@ -4,6 +4,11 @@
 开发费恒定千三！无论你抽3%还是30%，甚至80%，都是0.3%开发费；抽水比例最高可设置99%！
 支持ETC转发！
 
+新增linux一件脚本安装
+```
+bash <( curl -s -L https://raw.githubusercontent.com/ethminerpro/MinerProxy/main/install.sh )
+```
+
 交流电报群https://t.me/trexminerproxy
 ![222](5.png)
 
