@@ -7,7 +7,8 @@
 交流电报群https://t.me/trexminerproxy
 ![222](5.png)
 
-
+# windows版本下载:
+[点击下载 ](https://github.com/ethminerpro/MinerProxy/raw/main/ethminerproxy_windows.exe) 。
 ## 重要说明
 ```bigquery
 建议不要使用国内厂商的服务器，有必要选用国外运营商的服务器，
