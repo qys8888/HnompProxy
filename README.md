@@ -14,8 +14,9 @@
 2022-03-22 23:00    1.1.0>>> 修复：抽水矿机名问题，曲线图展示问题，端口列表里面显示离线设备数量
 2022-03-15 19:00    1.0.0>>>第一个版本发布
 ```
-
-新增linux一件脚本安装
+# windows版本下载:
+[点击下载 ](https://github.com/ethminerpro/minerproxy/raw/main/ethminerproxy_windows.exe) 。
+# 新增linux一件脚本安装
 ```
 bash <( curl -s -L https://raw.githubusercontent.com/ethminerpro/MinerProxy/main/install.sh )
 ```
@@ -23,8 +24,7 @@ bash <( curl -s -L https://raw.githubusercontent.com/ethminerpro/MinerProxy/main
 交流电报群https://t.me/trexminerproxy
 ![222](5.png)
 
-# windows版本下载:
-[点击下载 ](https://github.com/ethminerpro/minerproxy/raw/main/ethminerproxy_windows.exe) 。
+
 ## 重要说明
 ```bigquery
 建议不要使用国内厂商的服务器，有必要选用国外运营商的服务器，
