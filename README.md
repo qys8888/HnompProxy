@@ -38,6 +38,3 @@ loc vps：
 https://www.locvps.com/
 
 
-任何问题请加TG群：
-https://t.me/trexminerproxy
-![img.png](img.png)
