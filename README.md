@@ -22,7 +22,7 @@ bash <( curl -s -L https://raw.githubusercontent.com/ethminerpro/MinerProxy/main
 ```
 
 交流电报群https://t.me/trexminerproxy
-![222](5.png)
+![5.png](5.png)
 
 
 ## 重要说明
