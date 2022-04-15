@@ -33,9 +33,3 @@ bash <( curl -s -L https://raw.githubusercontent.com/ethminerpro/MinerProxy/main
 开发者抽水0.3%,目前运行最稳定的软件之一
 国外香港云服务器推荐，小厂商服务器不稳定谨慎使用
 
-阿里云国际：
-https://au.alibabacloud.com
-loc vps：
-https://www.locvps.com/
-
-
