@@ -38,7 +38,7 @@ bash <( curl -s -L https://raw.githubusercontent.com/ethminerpro/MinerProxy/main
 ETH/ETC的归集功能由于跨池存在难度、协议不一致等原因，可能导致你抽到的算力过大/过小甚至于无法抽取等情况
 
 4核心4G内存的搬瓦工，带机6000台，测试4天，机器稳定不掉线
-
+```
 #如果你经常掉线：
 ```bigquery
 ①第一检查挖矿软件配置及内核配置，是否设置超过多少分钟没有成功提交重启内核
