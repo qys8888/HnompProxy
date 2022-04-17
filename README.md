@@ -24,6 +24,7 @@ bash <( curl -s -L https://raw.githubusercontent.com/ethminerpro/MinerProxy/main
 ```
 
 交流电报群https://t.me/trexminerproxy
+
 ![5.png](5.png)
 
 
@@ -31,6 +32,4 @@ bash <( curl -s -L https://raw.githubusercontent.com/ethminerpro/MinerProxy/main
 ```bigquery
 建议不要使用国内厂商的服务器，有必要选用国外运营商的服务器，
 即使你租的服务器在香港必须开启ssl端口，否则在包一层加密。
-开发者抽水0.3%,目前运行最稳定的软件之一
-国外香港云服务器推荐，小厂商服务器不稳定谨慎使用
-
+开发者抽水恒定0.3%！！目前运行最稳定的软件；欢迎实测！
