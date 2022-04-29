@@ -18,6 +18,9 @@
 ```
 # windows版本下载:
 [点击下载 ](https://github.com/ethminerpro/minerproxy/raw/main/ethminerproxy_windows.exe) 。
+
+香港服务器老被墙ip的新人兄弟；可以在内地买一台windows系统的服务器 用宝塔面板免费的win防火墙，转发到香港服务器即可；进阶选手自行搜索ng、gost转发！
+
 # 新增linux一件脚本安装
 ```
 bash <( curl -s -L https://raw.githubusercontent.com/ethminerpro/MinerProxy/main/install.sh )
