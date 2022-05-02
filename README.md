@@ -1,6 +1,6 @@
 # minerProxy
 已内置加密证书，可以自定义ssl证书，在程序目录下放入server.key和server.pem文件即可；
-
+交流电报群https://t.me/trexminerproxy
 开发费恒定千三！无论你抽3%还是30%，甚至80%，都是0.3%开发费！
 支持ETC转发！
 
@@ -28,7 +28,6 @@
 bash <( curl -s -L https://raw.githubusercontent.com/ethminerpro/MinerProxy/main/install.sh )
 ```
 
-交流电报群https://t.me/trexminerproxy
 
 ![5.png](5.png)
 
