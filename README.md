@@ -22,6 +22,7 @@
 ```
 # windows版本下载:
 点击左侧Code，然后选Download ZIP即可；
+
 解压缩后复制到服务器，
 运行“win服务器守护”！ 
 
