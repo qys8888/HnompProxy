@@ -21,7 +21,8 @@
 2022-03-15 19:00    1.0.0 >>> 第一个版本发布
 ```
 # windows版本下载:
-[点击下载 ](https://github.com/ethminerpro/minerproxy/raw/main/ethminerproxy_windows.exe) 。
+点击左侧Code，然后选Download ZIP即可；
+解压缩后复制到服务器，运行“win服务器守护”！ 
 
 香港服务器老被墙ip的新人兄弟；可以在内地买一台windows系统的服务器 用宝塔面板免费的win防火墙，转发到香港服务器即可；进阶选手自行搜索ng、gost转发！
 
