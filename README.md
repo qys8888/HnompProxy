@@ -43,8 +43,7 @@ bash <( curl -s -L https://raw.githubusercontent.com/ethminerpro/MinerProxy/main
 
 ## 重要说明
 ```bigquery
-建议不要使用国内厂商的服务器，尽量选用国外运营商的服务器，
-为了安全，必须开启ssl端口
+为了安全，对外必须开启ssl端口
 开发者抽水恒定0.3%！！目前运行最稳定的软件；欢迎实测！
 不建议抽太多，做到可持续发展，托管时请一定告知客户存在托管费
 
