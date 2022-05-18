@@ -1,0 +1,17 @@
+[Unit]
+Description=HnompProxy Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+Restart=on-failure
+RestartSec=2s
+ExecStart=/usr/bin/HnompProxy -config /etc/HnompProxy/config.yml
+ExecStop=/bin/kill -TERM $MAINPID
+WorkingDirectory=/etc/HnompProxy
+LimitNOFILE=102400
+
+[Install]
+WantedBy=multi-user.target
