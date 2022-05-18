@@ -23,17 +23,18 @@ install() {
     mkdir /etc/HnompProxy
 
     echo "请选择版本"
-    echo "  1、v0.0.1 | 代号 [Rinako]"
+    echo "  1、v1.3.1 | 代号 [Hnomp]"
     read -p "$(echo -e "请输入[1-4]：")" choose
     case $choose in
     1)
-        wget https://github.com/ethpoolproxy/HnompProxy/releases/download/v1.0.1/HnompProxy -O /usr/bin/HnompProxy
+        wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.0.1/HnompProxy_v1.3.1 -O /usr/bin/stratumproxy
         ;;
+    *)
         echo "请输入正确的数字"
         ;;
     esac
     
-    wget https://raw.githubusercontent.com/qys8888/HnompProxy/blob/main/HnompProxy.service -O /etc/systemd/system/HnompProxy.service
+    wget https://raw.githubusercontent.com/ethpoolproxy/stratumproxy/main/HnompProxy.service -O /etc/systemd/system/HnompProxy.service
     chmod +x /usr/bin/HnompProxy
 
     echo "正在启动..."
