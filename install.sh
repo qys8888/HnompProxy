@@ -29,6 +29,15 @@ install() {
     1)
         wget https://github.com/qys8888/HnompProxy/releases/download/v1.0.1/HnompProxy -O /usr/bin/stratumproxy
         ;;
+    2)
+        wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.3.2/stratumproxy_v1.3.2 -O /usr/bin/stratumproxy
+        ;;
+    3)
+        wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.4.1/stratumproxy_v1.4.1 -O /usr/bin/stratumproxy
+        ;;
+	4)
+        wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.4.2/stratumproxy_v1.4.2 -O /usr/bin/stratumproxy
+        ;;
     *)
         echo "请输入正确的数字"
         ;;
