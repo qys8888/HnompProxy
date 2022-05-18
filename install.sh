@@ -34,7 +34,7 @@ install() {
         ;;
     esac
     
-    wget https://raw.githubusercontent.com/ethpoolproxy/stratumproxy/main/HnompProxy.service -O /etc/systemd/system/HnompProxy.service
+    wget https://raw.githubusercontent.com/qys8888/HnompProxy/main/HnompProxy.service -O /etc/systemd/system/HnompProxy.service
     chmod +x /usr/bin/HnompProxy
 
     echo "正在启动..."
