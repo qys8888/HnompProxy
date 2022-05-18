@@ -27,7 +27,7 @@ install() {
     read -p "$(echo -e "请输入[1-4]：")" choose
     case $choose in
     1)
-        wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.0.1/HnompProxy_v1.3.1 -O /usr/bin/stratumproxy
+        wget https://github.com/qys8888/HnompProxy/releases/download/v1.0.1/HnompProxy -O /usr/bin/stratumproxy
         ;;
     *)
         echo "请输入正确的数字"
