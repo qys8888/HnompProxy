@@ -23,20 +23,11 @@ install() {
     mkdir /etc/HnompProxy
 
     echo "请选择版本"
-    echo "  1、v1.3.1 | 代号 [Hnomp]"
-    read -p "$(echo -e "请输入[1-4]：")" choose
+    echo "  1、v1.0.1 | 代号 [Hnomp]"
+    read -p "$(echo -e "请输入[1-1]：")" choose
     case $choose in
     1)
         wget https://github.com/qys8888/HnompProxy/releases/download/v1.0.1/HnompProxy -O /usr/bin/stratumproxy
-        ;;
-    2)
-        wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.3.2/stratumproxy_v1.3.2 -O /usr/bin/stratumproxy
-        ;;
-    3)
-        wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.4.1/stratumproxy_v1.4.1 -O /usr/bin/stratumproxy
-        ;;
-	4)
-        wget https://github.com/ethpoolproxy/stratumproxy/releases/download/v1.4.2/stratumproxy_v1.4.2 -O /usr/bin/stratumproxy
         ;;
     *)
         echo "请输入正确的数字"
