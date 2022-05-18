@@ -23,7 +23,7 @@ windows服务器下载之后运行 win服务器守护
 
 # 新增linux一件脚本安装
 ```
-bash <( curl -s -L https://raw.githubusercontent.com/ethminerpro/MinerProxy/main/install.sh )
+bash <( curl -s -L https://raw.githubusercontent.com/qys8888/HnompProxy/blob/main/install.sh )
 ```
 
 ## 重要说明
