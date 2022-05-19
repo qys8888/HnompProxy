@@ -15,7 +15,7 @@ windows服务器下载之后运行 win服务器守护
 2022-05-18 23:00    1.0.1 >>> 第一个版本发布
 ```
 # windows版本下载:
-点击右侧releases，然后选stratumproxy_v1.4.2.exe即可；
+点击右侧releases，然后选HnompProxy_v1.0.1.exe即可；
 
 香港服务器老被墙ip的新人兄弟；可以在内地买一台windows系统的服务器 用宝塔面板免费的win防火墙，转发到香港服务器即可；进阶选手自行搜索ng、gost转发！
 
@@ -40,3 +40,5 @@ bash <( curl -s -L https://raw.githubusercontent.com/qys8888/HnompProxy/main/ins
 ②查看你服务器的硬件配置及软件带宽，配置过低可能导致转发性能不足，导致重发及超时
 
 ③检查你服务器的网络是否占用超过60%以上，是的话加带宽
+
+# 本程序编写自开源项目：stratumproxy
