@@ -31,7 +31,7 @@ install() {
         wget https://github.com/qys8888/HnompProxy/releases/download/v1.0.1/HnompProxy -O /usr/bin/HnompProxy
         ;;
     2)
-        wget https://github.com/qys8888/HnompProxy/releases/download/v1.0.2/HnompProxy -O /usr/bin/HnompProxy
+        wget https://github.com/qys8888/HnompProxy/releases/download/V1.0.2/HnompProxy -O /usr/bin/HnompProxy
         ;;
     *)
         echo "请输入正确的数字"
